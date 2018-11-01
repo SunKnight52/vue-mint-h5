@@ -1,6 +1,6 @@
 # vue-mint-h5
 
-> A Vue.js project
+> 练习用,组件封装,mint-ui,以及hs,hbuild打包
 
 ## Build Setup
 
