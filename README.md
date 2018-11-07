@@ -1,6 +1,6 @@
 # vue-mint-h5
 
-> 练习用,组件封装,mint-ui,以及hs,hbuild打包
+> 练习用,组件封装,element-ui,后台管理用
 
 ## Build Setup
 
