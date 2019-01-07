@@ -13,6 +13,15 @@ Vue.use(ElementUI);
 Vue.prototype.$http = axios;
 
 Vue.config.productionTip = false
+router.beforeEach((to, from, next) => {
+  if (to.path != "/login" && !localStorage.username) {
+    console.log(1)
+    next("/login")
+  }
+  next()
+});
+
+
 
 /* eslint-disable no-new */
 new Vue({
